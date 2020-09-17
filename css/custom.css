@@ -19,13 +19,12 @@ body {
     padding-top: 100px;
   }
 }
-
 /* navbar edits */
 .navbar {
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
-    min-height: 80px;
+    /* min-height: 80px; */
     background-color: #a480b0;
 }
 
@@ -53,7 +52,6 @@ body {
   padding-top: 2%;
 }
 
-
 .brand {
   /* padding: 0 50px; */
   height: 80px;
@@ -70,7 +68,6 @@ body {
   display: inline-block;
   background-color: #a480b0;
 }
-
 
 .navbar-toggle {
   /* (80px - button height 34px) / 2 = 23px */
@@ -98,12 +95,12 @@ a {
 
 .nav.navbar-nav li a {
     /* color: #b385c7; */
-    margin-top: 5px;
+    margin-top: 7px;
     color: white;
     font-size: 16px;
     font-family: 'Alegreya', serif;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 12px;
+    padding-right: 12px;
     margin-bottom: 0%;
 }
 
@@ -146,7 +143,7 @@ p {
 
 .sub-title {
   font-size: 30px;
-  font: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   text-align: center;
   color: #83668C;
@@ -199,6 +196,11 @@ row {
 
 .custom-padding {
     padding: 10px;
+}
+
+.custom-padding2 {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .item {
@@ -282,12 +284,12 @@ row {
 }
 
 .small-title {
-  padding-top: 20px;
+  padding-top: 50px;
   text-align: center;
   color: #83668C;
   font-family: 'Lato', sans-serif;
   /* font-family: 'Alegreya', serif; */
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .upcoming-event-text {
@@ -442,7 +444,9 @@ margin-right: auto;
 .even-row {
   background-color: #F5F0F8;
   padding: 3% 0% 3% 0%;
+  padding-top: 5%;
 }
+
 
 .paragraph {
   margin: 5% 0% 5% 0%;
