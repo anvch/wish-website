@@ -90,16 +90,30 @@
 
         <div class="col-md-12">
             <p class="small-title"> Upcoming Events </p>
-            <p class="upcoming-event-text"> Come meet us and say hi! Below are the two closest upcoming events! </br>
+            <p class="upcoming-event-text" height="2000px"> Come meet us and say hi! You can look at some upcoming events below. </br>
                 To see a schedule of future events, check out our calendar! </p>
         </div>
         <div class="event-style">
-          <img class="event-img" src="images/grill_and_chill.jpg"
-               alt="grill_and_chill">
+          <!-- <embed class="event-img" height="1100px" src="images/flyers/google.pdf"
+               alt="google"> -->
+            <iframe id="myIframe" class="event-img"
+               src="https://drive.google.com/file/d/1AQyiVdCVb82fdaDk5EwuUfq8n9FHysRX/preview?usp=sharing"
+               style="width: 90%; height: 450px;
+               border: 2px solid #ccc;"
+           ></iframe>
+           <script>
+            // Selecting the iframe element
+            var iframe = document.getElementById("myIframe");
+            
+            // Adjusting the iframe height onload event
+            iframe.onload = function(){
+                iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+            }
+             </script>
         </div>
 
-        <img class="event-img" src="images/workday.jpg"
-             alt="workday">
+        <!-- <img class="event-img" src="images/workday.jpg"
+             alt="workday"> -->
     </div>
 
     <div class="custom-padding"></div>
