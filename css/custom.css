@@ -29,7 +29,6 @@ body {
 }
 
 .navbar-brand {
-  padding: 0 15px;
   height: 80px;
   line-height: 80px;
   font-family: 'Alegreya', serif;
@@ -71,8 +70,9 @@ body {
 
 .navbar-toggle {
   /* (80px - button height 34px) / 2 = 23px */
-  margin-top: 23px;
-  padding: 9px 10px !important;
+  margin-top: 100px;
+  margin-left: 60px;
+  padding: 10px 12px !important;
   background-color: #a480b0;
 }
 @media (min-width: 768px) {
@@ -430,7 +430,7 @@ row {
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-  padding: 8px;
+  /* padding: 8px; */
   line-height: 1.42857143;
   vertical-align: top;
   /* border-top: 1px solid #868484; */
@@ -479,7 +479,7 @@ row {
 }
 
 .team-directory {
-  padding: 0% 10% 0% 10%;
+  padding: 0% 10% 0% 6%;
   justify-content: center;
 }
 
