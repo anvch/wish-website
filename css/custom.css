@@ -24,57 +24,48 @@ body {
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
-    /* min-height: 80px; */
     background-color: #a480b0;
 }
 
 .navbar-brand {
-  height: 80px;
   line-height: 80px;
+  min-height: 80px;
   font-family: 'Alegreya', serif;
 }
 
-.navbar-default {
-    /* background-color: lightgray; */
-    background-color: #a480b0;
-}
-
 .home-link {
-  /* display: inline; */
   position: relative;
   font-size: 24px;
 }
 
 .logo {
-  /* display: inline; */
+  margin-top: 3%;
   float: left;
+  height: 65%;
   padding-top: 2%;
 }
-
-.brand {
   /* padding: 0 50px; */
-  height: 80px;
+/* .brand {
+
+  height: 100px;
   line-height: 80px;
   min-height: 80px;
   background-color: #a480b0;
-}
+} */
 
-.navbar-fixed-top {
-  background-color: #a480b0;
-}
 
-.navbar-header {
+/* .navbar-header {
   display: inline-block;
   background-color: #a480b0;
-}
+} */
 
-.navbar-toggle {
-  /* (80px - button height 34px) / 2 = 23px */
+/* (80px - button height 34px) / 2 = 23px */
+/* .navbar-toggle {
+  
   margin-top: 100px;
-  margin-left: 40px;
   padding: 9px 9px !important;
   background-color: #a480b0;
-}
+} */
 @media (min-width: 768px) {
   .navbar-nav > li > a {
     /* (80px - line-height of 27px) / 2 = 26.5px */
@@ -92,9 +83,8 @@ a {
   color: #a480b0;
   font-family: 'Lato', sans-serif;
 }
-
+/* color: #b385c7; */
 .nav.navbar-nav li a {
-    /* color: #b385c7; */
     margin-top: 7px;
     color: white;
     font-size: 16px;
