@@ -44,28 +44,7 @@ body {
   height: 65%;
   padding-top: 2%;
 }
-  /* padding: 0 50px; */
-/* .brand {
 
-  height: 100px;
-  line-height: 80px;
-  min-height: 80px;
-  background-color: #a480b0;
-} */
-
-
-/* .navbar-header {
-  display: inline-block;
-  background-color: #a480b0;
-} */
-
-/* (80px - button height 34px) / 2 = 23px */
-/* .navbar-toggle {
-  
-  margin-top: 100px;
-  padding: 9px 9px !important;
-  background-color: #a480b0;
-} */
 @media (min-width: 768px) {
   .navbar-nav > li > a {
     /* (80px - line-height of 27px) / 2 = 26.5px */
@@ -94,34 +73,17 @@ a {
     margin-bottom: 0%;
 }
 
-/* deal with screen size changes */
-/* @media (max-width: 1200px) {
-  .nav.navbar-nav li a {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-} */
-
-/* @media (max-width: 1000px) {
-  .nav.navbar-nav li a {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-} */
 
 .navbar-collapse {
     padding-left: 120px;
-    /* float: relative; */
 }
 
 h1, h5{
-    /* font-family: 'Lato', sans-serif; */
     font-family: 'Alegreya', serif;
     color: #b385c7;
 }
 
 h3 {
-    /* font-family: 'Thasadith', sans-serif; */
     font-size: 20px;
     font: 'Roboto', sans-serif;
     text-align: center;
@@ -140,13 +102,10 @@ p {
 }
 
 .footer {
-  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
-  /* background-color: whitesmoke; */
   background-color: #a480b0;
-  /* color: #76b8ce; */
   color: black;
   margin-top: 15px;
   padding: 15px;
@@ -213,8 +172,6 @@ row {
 .container {
   position: relative;
   width: 100%;
-  /* margin-left: 0px;
-  margin-right: 0px; */
 }
 
 /* Bottom right text */
@@ -294,22 +251,6 @@ row {
   padding: 20px 20px 20px 70px;
 }
 
-/* .iframe-container {
-  overflow: hidden;
-  /* 16:9 aspect ratio */
-  /* padding-top: 56.25%;
-  position: relative;
-} */
-
-/* .iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
-} */ 
-
 .wonder-womxn {
   position: static;
   padding-bottom: 2%;
@@ -322,17 +263,25 @@ row {
 
 .womxn-container {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
 }
 
+
 .wonder-img {
+  justify-content: center;
   align-content: center;
   align-items: center;
-  margin-left: 10%;
-  margin-right: 50%;
+  text-align: center;
   border-radius: 50%;
-  width: 60%;
-  height: auto;
+  margin-left: 10%;
+  width: 200px;
+  height: 200px;
+}
+
+.wonder-text-container{
+  margin-left: 3%;
+  width: 80%;
 }
 
 .wonder-title {
@@ -340,7 +289,6 @@ row {
   text-align: center;
   font-size: 50px;
   color: #83668C;
-  /* font-family: 'Alegreya', serif; */
   font-family: 'Lato', sans-serif;
 }
 
