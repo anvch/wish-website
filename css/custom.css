@@ -506,5 +506,10 @@ row {
 .explore-message {
   background-color: #F5F0F8;
   padding: 1em 3em;
-  margin: 3em 5em;
+  position: static;
+  padding-bottom: 2%;
+  margin: 5%;
+  width: 90%;
+  color: black;
+  opacity: 0.9;
 }
