@@ -232,7 +232,7 @@ row {
 }
 
 .small-title {
-  padding-top: 50px;
+  padding-top: 20px;
   text-align: center;
   color: #83668C;
   font-family: 'Lato', sans-serif;
@@ -501,4 +501,10 @@ row {
   font-size: 14px;
   font-style: normal;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.explore-message {
+  background-color: #F5F0F8;
+  padding: 1em 3em;
+  margin: 3em 5em;
 }
