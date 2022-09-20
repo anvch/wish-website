@@ -1,391 +1,586 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- About Page -->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- About Page -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>WISH Teams</title>
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
 
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../css/bootstrap.css" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="../css/custom.css" >
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
-    <link rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
 
     <script src="../js/NavigationBar.js"></script>
     <script src="../js/Footer.js"></script>
     <script>
-        $(function() { new NavigationBar("../", "").init(); });
-        $(function() { new Footer().init(); });
+      $(function () {
+        new NavigationBar("../", "").init();
+      });
+      $(function () {
+        new Footer().init();
+      });
     </script>
-</head>
+  </head>
 
-<body>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Navigation Bar: See NavigationBar.js -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only" >Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                    <a class="navbar-brand" style="padding: 0%;" href="../index.html">
-                        <img class="logo" src="../images/wish_combined.png" alt="Women Involved In Software and Hardware">
-                    </a>
-                </div>
-
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                <li><a href="about.html"> <div class="navbar-title"> About </div></a></li>
-                <li><a href="teams.html"> <div class="navbar-title"> Teams </div> </a></li>
-                <li><a href="calendar.html">  <div class="navbar-title"> Calendar </div> </a></li>
-                <li><a href="contact_us.html">  <div class="navbar-title"> Contact Us </div> </a></li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" style="padding: 0%" href="../index.html">
+            <img
+              class="logo"
+              src="../images/wish_combined.png"
+              alt="Women Involved In Software and Hardware"
+            />
+          </a>
         </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="about.html"> <div class="navbar-title">About</div></a>
+            </li>
+            <li>
+              <a href="teams.html"> <div class="navbar-title">Teams</div> </a>
+            </li>
+            <li>
+              <a href="calendar.html"> <div class="navbar-title">Calendar</div> </a>
+            </li>
+            <li>
+              <a href="contact_us.html"> <div class="navbar-title">Contact Us</div> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- end of navigation bar  -->
 
     <div class="container-fluid title">
-        <div class="page-title"> 2021 - 2022 Officer Teams </div>
+      <div class="page-title">2022 - 2023 Officer Teams</div>
     </div>
 
-    <div class="custom-padding"> </div>
+    <div class="custom-padding"></div>
     <div class="custom-padding"></div>
 
     <div class="container-fluid team-container">
-            <!-- row 1 Execs -->
-            <div class="row">
-                <!-- <h2 style="border-bottom: 1.5px solid #b385c7; padding: 5px"><a href="{% url 'team_detail' pk=team.pk %}">{{ team.name }}</a></h2> -->
-                <div class="col-md-4 team-info">
-                    <div class="event-title"> Executives </div>
-                    <div style="padding: 4% 4% 4% 0%;"> As part of the executive team, we oversee the progress of the other teams and make sure 
-                        everything is going smoothly. We also organize meetings with directors to try and encourage a friendly and supportive 
-                        environment as much as possible!    </div>
-                </div >
+      <!-- row 1 Execs -->
+      <div class="row">
+        <!-- <h2 style="border-bottom: 1.5px solid #b385c7; padding: 5px"><a href="{% url 'team_detail' pk=team.pk %}">{{ team.name }}</a></h2> -->
+        <div class="col-md-4 team-info">
+          <div class="event-title">Executives</div>
+          <div style="padding: 4% 4% 4% 0%">
+            As part of the executive team, we oversee the progress of the other teams and
+            make sure everything is going smoothly. We also organize meetings with
+            directors to try and encourage a friendly and supportive environment as much
+            as possible!
+          </div>
+        </div>
 
-                <div class="col-md-2 member-info" >
-                    <div style="padding-top: 5%;"> <img class="col-md-12" src="../images/WISH_Officers_2021/President-NayanaTiwari.jpg" width=50%> </div>
-                    <div class="officer-name"> Nayana Tiwari </div>
-                    <div> President </div>
-                    <div> natiwari@calpoly.edu </div>
-                </div>
+        <div class="col-md-2 member-info">
+          <div style="padding-top: 5%">
+            <img
+              class="col-md-12"
+              src="../images/WISH_Officers_2022/President-LauraCamacho.jpg"
+              width="50%"
+            />
+          </div>
+          <div class="officer-name">Laura Camacho</div>
+          <div>President</div>
+          <div>lcamac02@calpoly.edu</div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/VicePresident-ShainePalabrica.png" width=50%>
-                    <div class="officer-name"> Shaine Palabrica </div>
-                    <div> Vice President </div>
-                    <div> spalabri@calpoly.edu </div>
-                </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/VicePresident-AnushreeParmar.png"
+            width="50%"
+          />
+          <div class="officer-name">Anushree Parmar</div>
+          <div>Vice President</div>
+          <div>aaparmar@calpoly.edu</div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/Administrator-KatieSeidl.JPG" width=50%>
-                    <div class="officer-name"> Katie Seidl </div>
-                    <div> Administrator </div>
-                    <div> kseidl@calpoly.edu </div>
-                </div>
-            </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/VicePresident-DivyaSatrawada.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Divya Satrawada</div>
+          <div>Vice President</div>
+          <div>dsatrawa@calpoly.edu</div>
+        </div>
 
-            <div class="custom-padding"></div>
-            <div class="custom-padding"></div>
-            <div class="custom-padding"> </div>
-            <!-- row 2 Campus -->
-            <div class="row even-row">
-                <div class="col-md-4 team-info">
-                    <div class="event-title"> Campus </div>
-                    <div style="padding: 4% 4% 4% 0%;"> Campus team focuses on hosting fun events for our WISH members. Whether it's a social event, 
-                        WISH general meeting, or a study session, you know we will have a good time!  </div>
-                </div >
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/EmilyLai-Administrator.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Emily Lai</div>
+          <div>Administrator</div>
+          <div>elai09@calpoly.edu</div>
+        </div>
+      </div>
 
-                <div class="col-md-2 member-info">
-                    <div style="padding-top: 5%;"> <img class="col-md-12" src="../images/WISH_Officers_2021/CampusDirector-ReillySalkowski.png" width=50%> </div>
-                    <div class="officer-name"> Reilly Salkowski </div>
-                    <div> Campus Director </div>
-                    <div> rsalkows@calpoly.edu </div>
-                </div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <!-- row 2 Campus -->
+      <div class="row even-row">
+        <div class="col-md-4 team-info">
+          <div class="event-title">Campus</div>
+          <div style="padding: 4% 4% 4% 0%">
+            Campus team focuses on hosting fun events for our WISH members. Whether it's a
+            social event, WISH general meeting, or a study session, you know we will have
+            a good time!
+          </div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/temp.jpg" width=50%>
-                    <div class="officer-name"> Emily Lau </div>
-                    <div> Campus Officer </div>
-                    <div> elau14@calpoly.edu </div>
-                </div>
+        <div class="col-md-2 member-info">
+          <div style="padding-top: 5%">
+            <img
+              class="col-md-12"
+              src="../images/WISH_Officers_2022/CampusDirector-ManasaSrikanth.png"
+              width="50%"
+            />
+          </div>
+          <div class="officer-name">Manasa Srikanth</div>
+          <div>Campus Director</div>
+          <div>msrikant@calpoly.edu</div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/CampusOfficer-AnnieJoss.png" width=50%>
-                    <div class="officer-name"> Annie Joss </div>
-                    <div> Campus Officer </div>
-                    <div> anjoss@calpoly.edu </div>
-                </div>
-            </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Supriya Mandava</div>
+          <div>Campus Officer</div>
+          <div>sumandav@calpoly.edu</div>
+        </div>
 
-            <div class="custom-padding"></div>
-            <div class="custom-padding"></div>
-            <div class="custom-padding"> </div>
-            <!-- row 3 Diversity-->
-            <div class="row">
-                <div class="col-md-4 team-info">
-                    <div class="event-title"> Diversity </div>
-                    <div style="padding: 4% 4% 4% 0%;"> The diversity team is here to help support underrepresented and diverse students. Our 
-                        goal is to create a space that promotes collaboration and community among students of all backgrounds. We aim to inform 
-                        members of the cultural events that are happening through Cal Poly. We need to provide an outlet for students' c
-                        oncerns to be heard. The diversity team is here to help!  </div>
-                </div >
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/CampusOfficer-LeahSarles.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Leah Sarles</div>
+          <div>Campus Officer</div>
+          <div>lsarles@calpoly.edu</div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/DiversityDirector-PiperFeldman.png" width=50%>
-                    <div class="officer-name"> Piper Feldman </div>
-                    <div> Diversity Director </div>
-                    <div> pfeldman@calpoly.edu </div>
-                </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Swara Kurakula</div>
+          <div>Campus Officer</div>
+          <div>skurakul@calpoly.edu</div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/DiversityOfficer-AnnetteTran.png" width=50%>
-                    <div class="officer-name"> Annette Tran </div>
-                    <div> Diversity Officer </div>
-                    <div> atran268@calpoly.edu </div>
-                </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/CampusOfficer-KeilaMohan.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Keila Mohan</div>
+          <div>Campus Officer</div>
+          <div>kemohan@calpoly.edu</div>
+        </div>
+      </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/EELiaison-AkimmiNavarro.jpg" width=50%>
-                    <div class="officer-name"> Kim Navarro </div>
-                    <div> EE Liaison </div>
-                    <div> anavar55@calpoly.edu </div>
-                </div>
-            </div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <!-- row 3 Diversity-->
+      <div class="row">
+        <div class="col-md-4 team-info">
+          <div class="event-title">Diversity</div>
+          <div style="padding: 4% 4% 4% 0%">
+            The diversity team is here to help support underrepresented and diverse
+            students. Our goal is to create a space that promotes collaboration and
+            community among students of all backgrounds. We aim to inform members of the
+            cultural events that are happening through Cal Poly. We need to provide an
+            outlet for students' concerns to be heard. The diversity team is here to help!
+          </div>
+        </div>
 
-            <div class="custom-padding"></div>
-            <div class="custom-padding"></div>
-            <div class="custom-padding"> </div>
-            <!-- row 4 Outreach-->
-            <div class="row even-row">
-                <div class="col-md-4 team-info">
-                    <div class="event-title"> Outreach </div>
-                    <div style="padding: 4% 4% 4% 0%;"> The Outreach team puts on events to encourage students within the SLO and Central Coast 
-                        community from Kindergarten to High School to learn about the technology field pertaining to Software Engineering, 
-                        Computer Science, Computer Engineering, and Electrical Engineering. In the past, the WISH Outreach team has organized 
-                        volunteers to help with at elementary school Code Clubs and Robotics, hosted software and hardware workshops for middle 
-                        schoolers, and panels for high school students. Our goal is to inspire these young girls and boys to spark a passion for 
-                        technology and see a future for themselves in the tech industry.  </div>
-                </div >
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/DiversityDirector-PiperFeldman.png"
+            width="50%"
+          />
+          <div class="officer-name">Piper Feldman</div>
+          <div>Diversity Director</div>
+          <div>pfeldman@calpoly.edu</div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/OutreachDirector-AnushreeParmar.png" width=50%>
-                    <div class="officer-name"> Anushree Parmar </div>
-                    <div> Outreach Director </div>
-                    <div> aaparmar@calpoly.edu </div>
-                </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Saanvi Dua</div>
+          <div>Diversity Officer</div>
+          <div>sadua@calpoly.edu</div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/K-8OutreachOfficer-Ping-WeiLin.jpg" width=50%>
-                    <div class="officer-name"> Ping-Wei (Marisa) Lin </div>
-                    <div> K-8 Outreach Officer </div>
-                    <div> mlin55@calpoly.edu </div>
-                </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Olivia Tran</div>
+          <div>EE Liaison</div>
+          <div>ogtran@calpoly.edu</div>
+        </div>
+      </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/HighSchoolOutreach-MeganTrieu.jpg" width=50%>
-                    <div class="officer-name"> Megan Trieu </div>
-                    <div> Highschool Outreach Officer </div>
-                    <div> matrieu@calpoly.edu </div>
-                </div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <!-- row 4 Publicity-->
+      <div class="row even-row">
+        <div class="col-md-4 team-info">
+          <div class="event-title">Publicity</div>
+          <div style="padding: 4% 4% 4% 0%">
+            The Publicity Team is in charge of supporting the public face of WISH. We send
+            out the WISH Weekly, update the Facebook and Instagram pages, and maintain the
+            WISH website. We also work on the WISH branding including logos, T-shirts,
+            flyers, stickers, etc.
+          </div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/HardwareOutreachOfficer-RhoyalinnCereno.png" width=50%>
-                    <div class="officer-name"> Rhoyalinn Cereno </div>
-                    <div> Hardware Outreach Officer </div>
-                    <div> rcereno@calpoly.edu </div>
-                </div>
-            </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/PublicityDirector-MaggieYang.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Maggie Yang</div>
+          <div>Publicity Director</div>
+          <div>myang57@calpoly.edu</div>
+        </div>
 
-            <div class="custom-padding"></div>
-            <div class="custom-padding"></div>
-            <div class="custom-padding"> </div>
-            <!-- row 5 Publicity-->
-            <div class="row">
-                <div class="col-md-4 team-info">
-                    <div class="event-title"> Publicity </div>
-                    <div style="padding: 4% 4% 4% 0%;"> The Publicity Team is in charge of supporting the public face of WISH. We send out the WISH Weekly, update 
-                        the Facebook and Instagram pages, and maintain the WISH website. We also work on the WISH branding including logos, T-shirts, flyers, stickers, etc.  </div>
-                </div >
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Briana Kuo</div>
+          <div>Graphic Designer</div>
+          <div>brkuo@calpoly.edu</div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/PublicityDirector-MelinaLopez.png"  width=50%>
-                    <div class="officer-name"> Melina Lopez </div>
-                    <div> Publicity Director </div>
-                    <div> mlope172@calpoly.edu </div>
-                </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/Webmaster-AdelleVo.png"
+            width="50%"
+          />
+          <div class="officer-name">Adelle Vo</div>
+          <div>Webmaster</div>
+          <div>avo27@calpoly.edu</div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/GraphicDesigner-MaggieYang.jpg" width=50%>
-                    <div class="officer-name"> Maggie Yang </div>
-                    <div> Graphic Designer </div>
-                    <div> myang57@calpoly.edu </div>
-                </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/PublicityOfficer-AnnetteTran.png"
+            width="50%"
+          />
+          <div class="officer-name">Annette Tran</div>
+          <div>Publicity Officer</div>
+          <div>atran268@calpoly.edu</div>
+        </div>
+      </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/Webmaster-AdelleVo.png" width=50%>
-                    <div class="officer-name"> Adelle Vo </div>
-                    <div> Webmaster </div>
-                    <div> avo27@calpoly.edu </div>
-                </div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <!-- row 5 Corporate-->
+      <div class="row">
+        <div class="col-md-4 team-info">
+          <div class="event-title">Corporate</div>
+          <div style="padding: 4% 4% 4% 0%">
+            Corporate is a WISH subcommittee that works with our industry partners to help
+            put on networking events, workshops and other events to help WISH members
+            connect with and explore the computer science industry.
+          </div>
+        </div>
 
-                <div class="col-md-2 member-info">
-                    <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/PublicityOfficer-SofiaDias.jpg" width=50%>
-                    <div class="officer-name"> Sofia Dias </div>
-                    <div> Publicity Officer </div>
-                    <div> sodias@calpoly.edu </div>
-                </div>
-            </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Mitashi Parikh</div>
+          <div>Corporate Director</div>
+          <div>mdparikh@calpoly.edu</div>
+        </div>
 
-            <div class="custom-padding"></div>
-            <div class="custom-padding"></div>
-            <div class="custom-padding"> </div>
-            <!-- row 6 Corporate-->
-            <div class="row even-row">
-              <div class="col-md-4 team-info">
-                  <div class="event-title"> Corporate </div>
-                  <div style="padding: 4% 4% 4% 0%;"> Corporate is a WISH subcommittee that works with our industry partners to help put on networking 
-                    events, workshops and other events to help WISH members connect with and explore the computer science industry.   </div>
-              </div >
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/CorporateOfficer-EmilyTruong.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Emily Truong</div>
+          <div>Corporate Officer</div>
+          <div>etruon08@calpoly.edu</div>
+        </div>
 
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/CorporateDirector-DivyaSatrawada.jpg" width=50%>
-                  <div class="officer-name"> Divya Satrawada </div>
-                  <div> Corporate Director </div>
-                  <div> dsatrawa@calpoly.edu </div>
-              </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
 
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/CorporateOfficer-TessaTapmongkol.jpg" width=50%>
-                  <div class="officer-name"> Tessa Tapmongkol </div>
-                  <div> Corporate Officer </div>
-                  <div> ttapmong@calpoly.edu </div>
-              </div>
+          <div class="officer-name">Shayna Chambless</div>
+          <div>Corporate Officer</div>
+          <div>chambles@calpoly.edu</div>
+        </div>
 
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/CorporateOfficer-JillianQuinn.png" width=50%>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/CorporateOfficer-SophieRuss.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Sophie Russ</div>
+          <div>Corporate Officer</div>
+          <div>soruss@calpoly.edu</div>
+        </div>
+      </div>
 
-                  <div class="officer-name"> Jillian Quinn </div>
-                  <div> Corporate Officer </div>
-                  <div> jiquinn@calpoly.edu </div>
-              </div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <!-- row 6 Mentorship-->
+      <div class="row even-row">
+        <div class="col-md-4 team-info">
+          <div class="event-title">Mentorship</div>
+          <div style="padding: 4% 4% 4% 0%">
+            Mentorship is responsible for planning pairings between incoming WISH students
+            and existing members to foster a friendly, technical, and reliable
+            relationships and introduce a welcoming community within WISH. We organize
+            events like mentor/mentee reveals, game nights, and more.
+          </div>
+        </div>
 
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/CorporateOfficer-EmilyTruong.jpg" width=50%>
-                  <div class="officer-name"> Emily Truong </div>
-                  <div> Corporate Officer </div>
-                  <div> etruon08@calpoly.edu </div>
-              </div>
-            </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Mackenzie Kettwig</div>
+          <div>Mentorship Director</div>
+          <div>mkettwig@calpoly.edu</div>
+        </div>
 
-            <div class="custom-padding"></div>
-            <div class="custom-padding"></div>
-            <div class="custom-padding"> </div>
-            <!-- row 7 Mentorship-->
-            <div class="row">
-              <div class="col-md-4 team-info">
-                  <div class="event-title"> Mentorship </div>
-                  <div style="padding: 4% 4% 4% 0%;"> Mentorship is responsible for planning pairings between incoming WISH students and existing 
-                    members to foster a friendly, technical, and reliable relationships and introduce a welcoming community within WISH. We 
-                    organize events like mentor/mentee reveals, game nights, and more.   </div>
-              </div >
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Zoila Kanu</div>
+          <div>Mentorship Officer</div>
+          <div>zkanu@calpoly.edu</div>
+        </div>
 
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/MentorshipDirector-YogiSunkara.png" width=50%>
-                  <div class="officer-name"> Yogi Sunkara </div>
-                  <div> Mentorship Director </div>
-                  <div> ysunkara@calpoly.edu </div>
-              </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/MentorshipOfficer-LindsayLandstad.png"
+            width="50%"
+          />
+          <div class="officer-name">Lindsay Landstad</div>
+          <div>Mentorship Officer</div>
+          <div>llandsta@calpoly.edu</div>
+        </div>
 
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/MentorshipOfficer-ElainePranadjaya.png" width=50%>
-                  <div class="officer-name"> Elaine Pranadjaya </div>
-                  <div> Mentorship Officer </div>
-                  <div> epranadj@calpoly.edu </div>
-              </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Jamie Luna</div>
+          <div>Mentorship Officer</div>
+          <div>jluna28@calpoly.edu</div>
+        </div>
 
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/temp.jpg" width=50%>
-                  <div class="officer-name"> Mitashi Parikh </div>
-                  <div> Mentorship Officer </div>
-                  <div> mdparikh@calpoly.edu </div>
-              </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/MentorshipOfficer-MansiAchuthan.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Mansi Achuthan</div>
+          <div>Mentorship Officer</div>
+          <div>machutha@calpoly.edu</div>
+        </div>
+      </div>
 
-              <div class="col-md-2 member-info">
-                <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/MentorshipOfficer-EmilyBodoh.jpg" width=50%>
-                <div class="officer-name"> Emily Bodoh </div>
-                <div> Mentorship Officer </div>
-                <div> ebodoh@calpoly.edu </div>
-            </div>
-            </div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <div class="custom-padding"></div>
+      <!-- row 7 Technology-->
+      <div class="row">
+        <div class="col-md-4 team-info">
+          <div class="event-title">Technology</div>
+          <div style="padding: 4% 4% 4% 0%">
+            Tech team hosts events to help WISH members be successful in their classes and
+            explore different areas of computing. From a workshop on designing and
+            creating a 3-D printed fan to a virtual Bob Ross paint night, tech team offers
+            a fun and supportive environment for members to learn and bond with other
+            students in their major!
+          </div>
+        </div>
 
-            <div class="custom-padding"></div>
-            <div class="custom-padding"></div>
-            <div class="custom-padding"> </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/TechDirector-SinduSrivats.png"
+            width="50%"
+          />
+          <div class="officer-name">Sindhu Srivats</div>
+          <div>Tech Director</div>
+          <div>sisrivat@calpoly.edu</div>
+        </div>
 
-            <!-- row 8 Technology-->
-            <div class="row even-row">
-              <div class="col-md-4 team-info">
-                  <div class="event-title"> Technology </div>
-                  <div style="padding: 4% 4% 4% 0%;"> Tech team hosts events to help WISH members be successful in their classes and explore 
-                    different areas of computing. From a workshop on designing and creating a 3-D printed fan to a virtual Bob Ross paint 
-                    night, tech team offers a fun and supportive environment for members to learn and bond with other students in their major!  </div>
-              </div >
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/TechOfficer-SofiaDias.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Sofia Dias</div>
+          <div>Tech Officer</div>
+          <div>sodias@calpoly.edu</div>
+        </div>
 
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/TechDirector-LauraCamacho.jpg" width=50%>
-                  <div class="officer-name"> Laura Camacho </div>
-                  <div> Tech Director </div>
-                  <div> lcamac02@calpoly.edu </div>
-              </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/temp.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Anna Yang</div>
+          <div>Tech Officer</div>
+          <div>ayang54@calpoly.edu</div>
+        </div>
 
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/TechOfficer-SinduSrivats.png" width=50%>
-                  <div class="officer-name"> Sindhu Srivats </div>
-                  <div> Tech Officer </div>
-                  <div> sisrivat@calpoly.edu </div>
-              </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/TechOfficer-ChristineChoi.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Christine Choi</div>
+          <div>Tech Officer</div>
+          <div>cchoi27@calpoly.edu</div>
+        </div>
 
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/TechOfficer-MansiAchuthan.jpg" width=50%>
-                  <div class="officer-name"> Mansi Achuthan </div>
-                  <div> Tech Officer </div>
-                  <div> machutha@calpoly.edu </div>
-              </div>
-
-              <div class="col-md-2 member-info">
-                  <img style="padding-top: 5%;" class="col-md-12" src="../images/WISH_Officers_2021/TechOfficer-MehaSharma.jpg" width=50%>
-                  <div class="officer-name"> Meha Sharma </div>
-                  <div> Tech Officer </div>
-                  <div> msharm11@calpoly.edu </div>
-              </div>
-            </div>
+        <div class="col-md-2 member-info">
+          <img
+            style="padding-top: 5%"
+            class="col-md-12"
+            src="../images/WISH_Officers_2022/TechOfficer-ViLinhVu.jpg"
+            width="50%"
+          />
+          <div class="officer-name">Vi Linh Vu</div>
+          <div>Tech Officer</div>
+          <div>vlvu@calpoly.edu</div>
+        </div>
+      </div>
     </div>
 
     <div class="custom-padding"></div>
@@ -396,22 +591,32 @@
 
     <!-- FOOTER -->
     <div class="footer">
-        <div class="container-fluid">
-            <div class="row social-media-icons">
-                <div style="display: flex; text-align: center; justify-content: center;">
-                    <a target="_blank" href="https://linktr.ee/wishcalpoly" style="padding-right: 15px">
-                        <img src="../images/linktree.png"
-                        height="40" width="40" alt="linktree logo">
-                    </a>
-                    <a target="_blank" href="https://www.instagram.com/wishcalpoly/" style="padding-left: 15px">
-                        <img src="../images/istg.png"
-                        height="40" width="40" alt="Instagram logo">
-                    </a>
-                </div>
-            <p class="copyright"> Copyright @WISH 2019</p>
-            </div>
+      <div class="container-fluid">
+        <div class="row social-media-icons">
+          <div style="display: flex; text-align: center; justify-content: center">
+            <a
+              target="_blank"
+              href="https://linktr.ee/wishcalpoly"
+              style="padding-right: 15px"
+            >
+              <img
+                src="../images/linktree.png"
+                height="40"
+                width="40"
+                alt="linktree logo"
+              />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/wishcalpoly/"
+              style="padding-left: 15px"
+            >
+              <img src="../images/istg.png" height="40" width="40" alt="Instagram logo" />
+            </a>
+          </div>
+          <p class="copyright">Copyright @WISH 2019</p>
         </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
