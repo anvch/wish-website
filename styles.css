@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Maven Pro";
+    src: url('./styles/MavenPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Maven Pro";
+    src: url('./styles/MavenPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Maven Pro";
+    src: url('./styles/MavenPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Maven Pro', sans-serif !important;
+    --bs-body-font-weight: 400;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    --bs-navbar-padding-y: 0 !important;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15);
+
+    .navbar-brand {
+        --bs-navbar-brand-margin-end: 0
+    }
+
+    .nav-link {
+        --bs-navbar-nav-link-padding-x: 6rem;
+        --bs-nav-link-font-size: 18px;
+        --bs-nav-link-font-weight: 600;
+        letter-spacing: 2px;
+    }
+}

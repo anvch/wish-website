@@ -5,90 +5,38 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <title>About WISH</title>
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
 
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="../css/bootstrap.css" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="../css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-
-    <!-- <script src="../js/NavigationBar.js"></script>
-    <script src="../js/Footer.js"></script> -->
-    <script>
-        $(function () { new NavigationBar("../", "").init(); });
-        $(function () { new Footer().init(); });
-    </script>
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script> -->
-
-    <!-- Navigation Bar: See NavigationBar.js -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" style="padding: 0%;" href="index.html">
-                    <img class="logo" src="images/wish_combined.png" alt="Women Involved In Software and Hardware">
-                </a>
-            </div>
-
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="pages/about.html">
-                            <div class="navbar-title"> About </div>
-                        </a></li>
-                    <li><a href="pages/teams.html">
-                            <div class="navbar-title"> Teams </div>
-                        </a></li>
-                    <li><a href="pages/calendar.html">
-                            <div class="navbar-title"> Calendar </div>
-                        </a></li>
-                    <li><a href="pages/contact_us.html">
-                            <div class="navbar-title"> Contact Us </div>
-                        </a></li>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <div class="container-fluid" style="display: block;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarItems" aria-controls="navbarItems" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarItems">
+                <ul class="navbar-nav justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/about.html">ABOUT</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/teams.html">TEAMS</a></li>
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.png" alt="WISH logo" style="max-width: 90px; max-height: auto;">
+                    </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/calendar.html">EVENTS</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contact_us.html">CONTACT</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <img class="div-design" src="images/wish_ghc_new.png" height="700" alt="group photo">
 
     <div class="text-block">
         <p class="welcome-title">WELCOME</p>
@@ -126,44 +74,6 @@
         </div>
     </div>
 
-    <!-- <div class="wonder-womxn">
-        <br><br>
-        <p style="transform: scale(0.78);" class="welcome-title"><i>Save the date for </i> <br><b>WISH 15th Anniversary!</b> 🎉</p>
-        <br>
-        <div class="anniversary-container">
-             <div class="anniversary-img-container">
-                <img class="anniversary" src="images/15YearAnniversary.jpg"></img>
-            </div>
-            <p class="anniversary-details">
-                Join WISH in celebrating its 15th anniversary by attending our fun-filled 15th-anniversary celebration with members and alumni networking, lightning talks, discussions, free food, and <i>limited edition</i> 15th anniversary WISH merch. This event will be held on <b>May 20th, 2022</b>, from <b>6-8 PM PST</b>, @ <b>Cal Poly Bonderson (Room 104)</b>. Hope to see you there!
-            </p>
-            <h3 class="anniversary-header">Click <a href="https://www.eventbrite.com/e/wish-15th-anniversary-tickets-331350908487">here</a> to RSVP. </h2>
-        </div>
-    </div> -->
-
-
-    <!-- SUMMER SPOTLIGHT -->
-    <div class="wonder-womxn">
-        <br>
-        <p class="small-title">2022 Summer Spotlights</p>
- 
-        <div class="womxn-container">
-            <div class="wonder-img-box"><img class="wonder-img" src="images/summer-spotlight-2022/mansi-achuthan.png"></img></div>
-            <div class="wonder-text-container">
-                <div class="text-message">
-                    <div class="name-title">Mansi Achuthan</div>
-                    <p class="wonder-msg">
-                        <b>4TH YEAR | COMPUTER SCIENCE MAJOR</b>
-                        <br><br>
-                        I am a 4th Computer Science major pursuing minors in Data Science and Statistics. I have been a member of WISH all four years here at Cal Poly, and I am currently an officer on the WISH mentorship team. I love of the arts, so some of my hobbies include dancing, drawing, and making mashups of my favorite songs. I was a software engineer at Google for 3 months this summer in San Francisco. I worked under Google Commerce and spent my summer contributing to the backend migration of a production database. It was great to finally have an internship in person and live on my own in a big city. Making friends, eating good food, and exploring different parts of SF on the weekend made my experience really fun.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div> 
-
-   
-
     <div class="sponsors">
         <p class="small-title">Sponsors</p>
         <div class="logo-container">
@@ -183,11 +93,6 @@
         </p>
     </div>
   
-
-    <!-- <div class="custom-padding"></div> -->
-    <!-- <div class="custom-padding"></div> -->
-    <!-- <div class="custom-padding"></div> -->
-
     <!-- FOOTER -->
     <div class="footer">
         <div class="container-fluid">
@@ -205,7 +110,8 @@
         </div>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 </body>
 
 </html>
