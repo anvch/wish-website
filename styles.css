@@ -33,10 +33,18 @@ body {
         --bs-navbar-brand-margin-end: 0
     }
 
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
     .nav-link {
         --bs-navbar-nav-link-padding-x: 6rem;
         --bs-nav-link-font-size: 18px;
         --bs-nav-link-font-weight: 600;
         letter-spacing: 2px;
     }
+}
+
+.main-content{
+    margin-top: 100px;
 }
