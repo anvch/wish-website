@@ -104,8 +104,8 @@ h1 {
 }
 
 .hexagon {
-    /* -webkit-mask-image: url('/images/hexagon.png');
-    mask-image: url('/images/hexagon.png'); */
+    -webkit-mask-image: url('./images/hexagon.png');
+    mask-image: url('./images/hexagon.png');
     -webkit-mask-size: 100%;
     mask-size: 70%;
     -webkit-mask-repeat: no-repeat;
@@ -113,3 +113,7 @@ h1 {
     mask-mode: luminance; /* Specifies how the mask image affects visibility */
     width: 80%;
   }
+
+.directory a{
+    text-decoration: none;
+}
