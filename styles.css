@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Maven Pro";
+    src: url('./styles/MavenPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Maven Pro";
+    src: url('./styles/MavenPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Maven Pro";
+    src: url('./styles/MavenPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* GLOBAL CSS VARIABLE */
+:root {
+    --default-text-color: #383637;
+}
+
+/* BOOTSTRAP VARIABLE OVERRIDES */
+body {
+    font-family: 'Maven Pro', sans-serif !important;
+    --bs-body-font-weight: 400;
+    --bs-body-font-size: 17px;
+    --bs-heading-color: var(--default-text-color);
+    --bs-body-color: var(--default-text-color);
+
+}
+
+.btn-wish-primary {
+    --bs-btn-font-family: 'Maven Pro';
+    --bs-btn-font-weight: 600 !important;
+    letter-spacing: 1.87px;
+    --bs-btn-font-size: 17px !important;
+    --bs-btn-color: white !important;
+    --bs-btn-bg: #A484B3 !important;
+    --bs-btn-border-color: #A484B3;
+    --bs-btn-hover-bg: #916ca3;
+    --bs-border-radius-lg: 1rem;
+}
+
+h1 {
+    font-size: calc(3rem + 1.5vw) !important;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    --bs-navbar-padding-y: 0 !important;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15);
+
+    .navbar-brand {
+        --bs-navbar-brand-margin-end: 0
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+    .nav-link {
+        --bs-navbar-nav-link-padding-x: 6rem;
+        --bs-nav-link-font-size: 18px;
+        --bs-nav-link-font-weight: 600;
+        letter-spacing: 2px;
+    }
+}
+
+.main-content{
+    margin-top: 100px;
+
+    .semibold {
+        font-weight: 600;
+        letter-spacing: 2.8px;
+    }
+
+    .regular {
+        line-height: 180%;
+    }
+
+}
+
+.bg-body-secondary {
+    --bs-secondary-bg-rgb: 236, 217, 231;
+}
+
+.about-card {
+    height: auto;
+    margin: 0 20px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    border: 4px solid;
+    
+    &.purple {
+        border-color: #DED9EC;
+    }
+    &.pink {
+        border-color: #ECD9E7;
+    }
+}
+
+.hexagon {
+    -webkit-mask-image: url('./images/hexagon.png');
+    mask-image: url('./images/hexagon.png');
+    -webkit-mask-size: 100%;
+    mask-size: 70%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;    
+    mask-mode: luminance; /* Specifies how the mask image affects visibility */
+    width: 80%;
+  }
+
+.directory a{
+    text-decoration: none;
+}
