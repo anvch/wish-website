@@ -20,6 +20,7 @@
 /* GLOBAL CSS VARIABLE */
 :root {
     --default-text-color: #383637;
+    --default-wish-purple: #AD83C1;
 }
 
 /* BOOTSTRAP VARIABLE OVERRIDES */
@@ -39,8 +40,8 @@ body {
     --bs-btn-font-size: 17px !important;
     --bs-btn-color: white !important;
     --bs-btn-border-width: 2px !important;
-    --bs-btn-border-color: #A484B3 !important;
-    --bs-btn-bg: #A484B3 !important;
+    --bs-btn-border-color: var(--default-wish-purple) !important;
+    --bs-btn-bg: var(--default-wish-purple) !important;
     --bs-btn-hover-bg: #916ca3 !important;
     --bs-btn-hover-border-color:#916ca3 !important;
     --bs-border-radius-lg: 1rem;
@@ -51,9 +52,9 @@ body {
     --bs-btn-font-weight: 600 !important;
     letter-spacing: 1.87px;
     --bs-btn-font-size: 17px !important;
-    --bs-btn-color: #A484B3 !important;
+    --bs-btn-color: var(--default-wish-purple) !important;
     --bs-btn-border-width: 2px !important;
-    --bs-btn-border-color: #A484B3 !important;
+    --bs-btn-border-color: var(--default-wish-purple) !important;
     --bs-btn-hover-border-color:#916ca3 !important;
     --bs-btn-hover-bg: #916ca3 !important;
     --bs-border-radius-lg: 1rem;
