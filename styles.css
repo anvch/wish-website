@@ -122,3 +122,17 @@ h1 {
 .directory a{
     text-decoration: none;
 }
+
+.team-card {
+  width: 220px;            /* uniform tile width */
+  margin: 20px auto;       /* spacing between cards */
+  text-align: center;      /* center text under photo */
+}
+
+.team-photo {
+  width: 200px;            /* consistent image size */
+  height: 200px;           /* enforces square space */
+  object-fit: contain;     /* respects PNG transparency */
+  display: block;
+  margin: 0 auto 15px;     /* centers and adds spacing below */
+}
